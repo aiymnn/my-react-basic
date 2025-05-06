@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import Hello from "./components/Hello.jsx";
 import Fruits from "./components/Fruits.jsx";
 import ConditionalComponent from "./components/ConditionalComponent.jsx";
+import Message from "./components/Message.jsx";
+import Counter from "./components/Counter.jsx";
+import Form from "./components/Form.jsx";
 // import './App.css'
 
 function App() {
@@ -18,7 +21,10 @@ function App() {
   return (
     <>
       {/* <ConditionalComponent /> */}
-      <Fruits />
+      {/* <Fruits /> */}
+      {/* <Message /> */}
+      {/* <Counter /> */}
+      <Form />
     </>
   );
 }
